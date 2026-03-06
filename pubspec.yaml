@@ -1,0 +1,50 @@
+name: lung_nodule_app
+description: 肺结节随访管理APP
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # 数据库
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  
+  # 状态管理
+  provider: ^6.1.1
+  
+  # 国际化
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.1
+  
+  # UI组件
+  flutter_screenutil: ^5.9.0
+  table_calendar: ^3.0.9
+  fl_chart: ^0.66.0
+  
+  # 工具
+  uuid: ^4.2.1
+  shared_preferences: ^2.2.2
+  
+  # 数据导出
+  share_plus: ^7.2.1
+  file_picker: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  # 国际化配置
+  generate: true
